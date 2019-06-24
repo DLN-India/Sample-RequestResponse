@@ -2,6 +2,6 @@
 {
     public interface ISimpleResponse
     {
-        string CusomerName { get; }
+        string CustomerName { get; }
     }
 }

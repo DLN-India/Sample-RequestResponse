@@ -43,3 +43,7 @@ doc/build/*
 NuGet.Exe
 
 nuspecs/
+/src/.vs/Sample/v16/Server/sqlite3/storage.ide-wal
+/src/.vs/Sample/v16/Server/sqlite3/storage.ide-shm
+/src/.vs/Sample/v16/Server/sqlite3/storage.ide
+/src/.vs/Sample/v16/Server/sqlite3/db.lock

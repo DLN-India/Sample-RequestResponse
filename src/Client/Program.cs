@@ -41,7 +41,7 @@
                     {
                         ISimpleResponse response = await client.Request(new SimpleRequest(customerId));
 
-                        Console.WriteLine("Customer Name: {0}", response.CusomerName);
+                        Console.WriteLine("Customer Name: {0}", response.CustomerName);
                     }).Wait();
                 }
             }
