@@ -17,7 +17,7 @@
 
             context.Respond(new SimpleResponse
             {
-                CusomerName = string.Format("Customer Number {0}", context.Message.CustomerId)
+                CustomerName = string.Format("Customer Number {0}", context.Message.CustomerId)
             });
         }
 
@@ -25,7 +25,7 @@
         class SimpleResponse :
             ISimpleResponse
         {
-            public string CusomerName { get; set; }
+            public string CustomerName { get; set; }
         }
     }
 }
